@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+}
+#Welcome{
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+/* footer{
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #333;
+    color: azure;
+} */
+#re{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 10px;
+    border-radius: 10%;
+    /* color: white; */
+    width: 300px;
+    background-color: blanchedalmon;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+}
+.main{
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    /* border: 2px solid; */
+}
+.main form input{
+    margin: 10px;
+}
+/* #img{
+    border-radius: 10%;
+    border: none;
+} */
+.card-title{
+    text-align: center;
+}
+footer{
+    background-color:#333; 
+    color: black;
+    margin-top: 10px;
+    border: 2px black;
+} 
+.home{
+    height: 300px;
+    width: 300px;
+    /* display: flex; */
+    background-color: aliceblue3
+        /* text-align: center;
+        align-items: center; */
+}
+.main-home{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.home-1{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+}
