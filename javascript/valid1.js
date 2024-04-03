@@ -1,3 +1,29 @@
+function jfun1(){
+    var name=frm.txt1.value
+    if (name==''){
+        alert("please Enter Name")
+        frm.txt1.focus();
+        return false;
+    }
+    else{
+        alert("Go Ahead!!")
+    }
+}
+
+function jfunct(){
+    var m1= eval(frm.m1.value);
+    var m2= eval(frm.m2.value);
+    var m3= eval(frm.m3.value);
+    frm.total.value= (m1+m2+m3);
+    frm.percent.value=((m1+m2+m3)/3+'%');
+    
+
+
+}
+
+
+
+
 function jfunc1(){
 
     var name=frm.name.value

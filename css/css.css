@@ -3,7 +3,10 @@ body{
     padding: 0px;
 }
 nav ul{
+    height: 60px;
     display: flex;
+    text-align: center;
+    align-items: center;
     justify-content: space-between;
     border: 2px solid;
 }
@@ -45,7 +48,7 @@ form{
     margin-top: 10px;
     border-radius: 10%;
     /* color: white; */
-    width: 300px;
+    width: 350px;
     background-color: blanchedalmon;
     /* display: flex; */
     justify-content: center;
