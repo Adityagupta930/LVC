@@ -6,9 +6,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="javascript/valid1.js"></script>
 </head>
 <body>
     <header>
@@ -20,21 +19,21 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="image/Untitled1.png" class="d-block w-100" alt="...">
+                <img src="Untitled1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h4>Live Virtual class</h4> -->
                   <!-- <p>Some representative placeholder content for the first slide.</p> -->
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="image/2 (1).png" class="d-block w-100" alt="...">
+                <img src="2 (1).png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h4>Live Virtual class</h4> -->
                   <!-- <p>Some representative placeholder content for the second slide.</p> -->
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="image/photo-1516979187457-637abb4f9353.png" class="d-block w-100" alt="...">
+                <img src="photo-1516979187457-637abb4f9353.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <!-- <h4>Live Virtual class</h4> -->
                   <!-- <p>Some representative placeholder content for the third slide.</p> -->
@@ -113,20 +112,26 @@
 
 
 
-    <section>
-        <h3 id="re"> Registration Form</h3>
-        <div class="main" style="height: 350px;">
-            <form action="" name="frm1" >
-                Name: <input type="text" name="name" placeholder="enter name"><br>
-                Designation :<input type="text" name="desig" placeholder="enter designation"><br>
-                Email:<input type="email" name="email" placeholder="enter email"><br>
-                Location:<input type="text" name="loc" placeholder="enter Location"><br>
-                Select:<input type="checkbox">Mean <input type="checkbox"> Python <br>
-                <input type="submit" value="submit">
+    
+    
+    <section >
+        <h1>Marks Details</h1>
+        <div class="main"  style="height: 400px;">
+            <form  name="frm" action="">
+
+                Maths: <input type="text" placeholder="Enter marks" name="m1"> <br>
+                English: <input type="text" placeholder="Enter marks" name="m2"><br>
+                Science: <input type="text" placeholder="Enter marks" name="m3"><br>
+        
+                <h3 >Result:</h3>
+                Total Marks: <input type="number" name="total"><br>
+                % Marks: <input type="text" name="percent"><br>
+                <input type="button" value="Result" onclick="jfunct()">
             </form>
         </div>
     </section>
-    <!-- <footer>
+<!-- 
+    <footer>
         <h3>Website designed by: Aditya Gupta</h3>
     </footer> -->
     
